@@ -6,3 +6,5 @@ export type mmReactComponentType<P = any> = React.ComponentType<P>
 export const mmReactUseState = React.useState
 export const mmReactUseRef = React.useRef
 export const mmReactUseContext = React.useContext
+
+export const mmReactCreateContext = React.createContext
