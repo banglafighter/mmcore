@@ -1,4 +1,4 @@
-import {mmReactComponentType, mmReactNode} from "../adapter/react-adapter";
+import {mmReactComponentType, mmReactNode} from "./../adapter/react-adapter";
 
 
 export type UINode = mmReactNode
