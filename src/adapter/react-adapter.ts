@@ -8,5 +8,6 @@ export const mmReactUseRef = React.useRef
 export const mmReactUseContext = React.useContext
 
 export const mmReactCreateContext = React.createContext
+export const mmReactLazy = React.lazy
 
 export const MmReactSuspense = React.Suspense
