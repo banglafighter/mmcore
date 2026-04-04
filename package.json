@@ -15,11 +15,9 @@
     "release": "pnpm run build && pnpm run version:release && pnpm run publish:release"
   },
   "dependencies": {
-    "zustand": "^5.0.11",
-    "react": "^19.2.4"
+    "zustand": "^5.0.11"
   },
   "devDependencies": {
-    "@types/react": "^19.2.14"
   },
   "license": "Apache-2.0",
   "main": "src/index.ts",
