@@ -3,7 +3,7 @@
   "version": "0.0.2-alpha.1",
   "description": "Common Library for mFront and mapend",
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
+    "build": "tsdown",
     "version:alpha": "pnpm version prerelease --preid alpha --no-git-tag-version",
     "version:beta": "pnpm version prerelease --preid beta --no-git-tag-version",
     "version:release": "pnpm version patch --no-git-tag-version",
@@ -17,6 +17,9 @@
   "dependencies": {
     "zustand": "^5.0.11",
     "react": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14"
   },
   "license": "Apache-2.0",
   "main": "src/index.ts",
@@ -34,9 +37,6 @@
   "bugs": {
     "url": "https://github.com/banglafighter/mmcore/issues"
   },
-  "devDependencies": {
-    "@types/react": "^19.2.14"
-  },
   "packageManager": "pnpm@10.28.2",
   "exports": {
     ".": {
@@ -52,13 +52,14 @@
   "publishConfig": {
     "access": "public",
     "main": "./dist/index.js",
-    "module": "./dist/index.js",
+    "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
     "exports": {
       ".": {
-        "import": "./dist/index.js",
+        "import": "./dist/index.mjs",
+        "require": "./dist/index.js",
         "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
+        "default": "./dist/index.mjs"
       }
     }
   },
