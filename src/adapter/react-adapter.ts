@@ -1,7 +1,8 @@
 import * as React from "react"
 
 export type mmReactNode = React.ReactNode
-export type mmReactComponentType<P = any> = React.ComponentType<P>
+export type mmReactComponentType<P> = React.ComponentType<P>
+export type mmReactComponentProps<P extends React.ElementType> = React.ComponentProps<P>;
 
 export const mmReactUseState = React.useState
 export const mmReactUseRef = React.useRef
