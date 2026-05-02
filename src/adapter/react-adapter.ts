@@ -6,10 +6,16 @@ export type mmReactComponentProps<P extends React.ElementType> = React.Component
 export type mmReactElement = React.ElementType
 
 export const mmReactUseState = React.useState
-export const mmReactUseRef = React.useRef
+export const mmReactUseEffect = React.useEffect
 export const mmReactUseContext = React.useContext
+
+export const mmReactUseRef = React.useRef
 
 export const mmReactCreateContext = React.createContext
 export const mmReactLazy = React.lazy
 
 export const MmReactSuspense = React.Suspense
+
+
+export type { RefObject as MMReactRefObject } from "react"
+export type { ChangeEvent as MMReactChangeEvent } from "react"
