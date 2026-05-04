@@ -8,6 +8,7 @@ export type mmReactElement = React.ElementType
 export const mmReactUseState = React.useState
 export const mmReactUseEffect = React.useEffect
 export const mmReactUseContext = React.useContext
+export const MmReactFragment = React.Fragment
 
 export const mmReactUseRef = React.useRef
 
