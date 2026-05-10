@@ -22,3 +22,4 @@ export const MmReactSuspense = React.Suspense
 
 export type { RefObject as MMReactRefObject } from "react"
 export type { ChangeEvent as MMReactChangeEvent } from "react"
+export type { CSSProperties as MMReactCSSProperties } from "react"
