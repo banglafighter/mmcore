@@ -7,7 +7,6 @@ export type mmReactElementType = React.ElementType
 
 export const mmReactUseState = React.useState
 export const mmReactUseMemo = React.useMemo
-export const mmReactUseCallback = React.useCallback
 export const mmReactUseContext = React.useContext
 export const MmReactFragment = React.Fragment
 
@@ -31,5 +30,6 @@ export {
     ReactElement as mmReactElement,
     createRef as mmReactCreateRef,
     createContext as mmReactCreateContext,
-    useEffect as mmReactUseEffect
+    useEffect as mmReactUseEffect,
+    useCallback as mmReactUseCallback
 } from "react"
