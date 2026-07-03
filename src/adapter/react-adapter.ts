@@ -32,4 +32,5 @@ export {
     useEffect as mmReactUseEffect,
     useCallback as mmReactUseCallback,
     useState as mmReactUseState,
+    SVGProps as mmReactSVGProps,
 } from "react"
