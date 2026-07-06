@@ -5,7 +5,6 @@ export type mmReactComponentType<P> = React.ComponentType<P>
 export type mmReactComponentProps<P extends React.ElementType> = React.ComponentProps<P>;
 export type mmReactElementType = React.ElementType
 
-export const mmReactUseMemo = React.useMemo
 export const mmReactUseContext = React.useContext
 export const MmReactFragment = React.Fragment
 
@@ -34,4 +33,5 @@ export {
     useState as mmReactUseState,
     SVGProps as mmReactSVGProps,
     useReducer as mmReactUseReducer,
+    useMemo as mmReactUseMemo,
 } from "react"
