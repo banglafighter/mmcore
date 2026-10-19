@@ -32,6 +32,7 @@ export {
     useCallback as mmReactUseCallback,
     useState as mmReactUseState,
     useId as mmReactUseId,
+    createElement as mmReactCreateElement,
     SVGProps as mmReactSVGProps,
     useReducer as mmReactUseReducer,
     useMemo as mmReactUseMemo,
